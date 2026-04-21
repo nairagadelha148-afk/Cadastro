@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    border-top: 1px solid #0a0a0a;
+
+    border-bottom: 1px solid #0a0a0a;
+
+
+
+
+
+}
+
+/* Centraliza tudo */
+main {
+    width: 400px;
+    margin-top: 15px;
+}
+
+/* Inputs e botão */
+input,
+button {
+    display: block;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+/* A "caixa" da lista */
+ul {
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    width: 350px;
+}
+
+/* Itens da lista */
+li {
+    display: flex;
+    border-bottom: 1px solid #000000;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+input {
+    border-radius: 1px;
+    width: 380px;
+    padding: 5px;
+
+}
+
+form {
+    margin-top: 150px;
+
+}
+
+button {
+    margin-left: 135px;
+}
+
