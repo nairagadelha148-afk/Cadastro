@@ -9,24 +9,32 @@
 </head>
 
 <body>
-    <main>
+    <form>
         <h3> Sistema de cadastro para novos usuarios </h3>
         <input id="teste" type="text" placeholder="Nome" required>
+        <input id="CEP" type="text" placeholder="CEP" required>
+        <input id="nascimento" type="date" placeholder="Data de nascimento" required>
         <input id="email" type="text" placeholder="E-mail" required>
-        <button id="adicionar" type="button">cadastrar</button>
-    </main>
-        <form>
+        <input id="telefone" type="number" placeholder="Telefone para contato" required>
+        
+        <button id="adicionar" type="submit">cadastrar</button>
+    </form>
+
+    
+        
 
             <h4> Lista de usuarios cadastrados </h4>
+            <input type="text" id="pesquisa" placeholder="Pesquisar usuário">
+            
             <ul id="ListaDeUsuario">
 
 
             </ul>
                 
-        </form>
+        
 
     
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>

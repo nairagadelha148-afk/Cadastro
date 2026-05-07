@@ -6,16 +6,9 @@ body {
     border-bottom: 1px solid #0a0a0a;
 
 
-
-
-
 }
 
-/* Centraliza tudo */
-main {
-    width: 400px;
-    margin-top: 15px;
-}
+
 
 /* Inputs e botão */
 input,
@@ -59,10 +52,12 @@ input {
 
 form {
     margin-top: 150px;
-
+    width: 400px;
+    margin-top: 15px;
 }
+
+
 
 button {
     margin-left: 135px;
 }
-
